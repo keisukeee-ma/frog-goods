@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KERO KERO APPAREL</title>
+  <meta name="description" content="カエルをモチーフにしたアパレルグッズのブランドサイト">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- カエルのイラスト（使い回し用） -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="frog" viewBox="0 0 120 100">
+      <ellipse cx="60" cy="66" rx="50" ry="32" fill="currentColor"/>
+      <circle cx="34" cy="30" r="18" fill="currentColor"/>
+      <circle cx="86" cy="30" r="18" fill="currentColor"/>
+      <circle cx="34" cy="30" r="11" fill="#fff"/>
+      <circle cx="86" cy="30" r="11" fill="#fff"/>
+      <circle cx="36" cy="31" r="6" fill="#1f2a1c"/>
+      <circle cx="84" cy="31" r="6" fill="#1f2a1c"/>
+      <path d="M40 66 Q60 80 80 66" stroke="#1f2a1c" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <circle cx="28" cy="62" r="6" fill="#f7a8a0" opacity=".8"/>
+      <circle cx="92" cy="62" r="6" fill="#f7a8a0" opacity=".8"/>
+    </symbol>
+  </svg>
+
+  <header class="header">
+    <a href="#top" class="logo">
+      <svg class="logo-icon"><use href="#frog"/></svg>
+      KERO KERO
+    </a>
+    <nav class="nav">
+      <a href="#concept">コンセプト</a>
+      <a href="#items">アイテム</a>
+      <a href="#news">お知らせ</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-sub">Frog Apparel Goods</p>
+        <h1>毎日に、<br>ちょっとカエルを。</h1>
+        <p>ゆるくて、ちょっと愛嬌のあるカエルたちを<br>Tシャツや雑貨にしてお届けしています。</p>
+        <a href="#items" class="btn">アイテムを見る</a>
+      </div>
+      <svg class="hero-frog"><use href="#frog"/></svg>
+    </section>
+
+    <section id="concept" class="section">
+      <h2>コンセプト</h2>
+      <p class="lead">
+        雨の日も、晴れの日も。<br>
+        どこか憎めないカエルたちが、身につける人の気分をすこし軽くしてくれる。<br>
+        そんなアイテムを、ひとつずつ丁寧にデザインしています。
+      </p>
+    </section>
+
+    <section id="items" class="section section-alt">
+      <h2>アイテム</h2>
+      <ul class="items">
+        <li class="item">
+          <div class="item-img c1"><svg><use href="#frog"/></svg></div>
+          <h3>ケロTシャツ</h3>
+          <p>定番のワンポイントTシャツ。コットン100%。</p>
+        </li>
+        <li class="item">
+          <div class="item-img c2"><svg><use href="#frog"/></svg></div>
+          <h3>おやすみパーカー</h3>
+          <p>フードにカエルの目がついたスウェットパーカー。</p>
+        </li>
+        <li class="item">
+          <div class="item-img c3"><svg><use href="#frog"/></svg></div>
+          <h3>はすの葉トート</h3>
+          <p>A4が入るキャンバストートバッグ。</p>
+        </li>
+        <li class="item">
+          <div class="item-img c4"><svg><use href="#frog"/></svg></div>
+          <h3>ケロキャップ</h3>
+          <p>刺繍入りのローキャップ。フリーサイズ。</p>
+        </li>
+        <li class="item">
+          <div class="item-img c5"><svg><use href="#frog"/></svg></div>
+          <h3>あめふりソックス</h3>
+          <p>足首にちいさなカエルがいるソックス。</p>
+        </li>
+        <li class="item">
+          <div class="item-img c6"><svg><use href="#frog"/></svg></div>
+          <h3>ステッカーセット</h3>
+          <p>表情ちがいのカエル5枚セット。</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="news" class="section">
+      <h2>お知らせ</h2>
+      <dl class="news">
+        <div><dt>2026.09.20</dt><dd>秋の新作パーカーのデザインを公開しました。</dd></div>
+        <div><dt>2026.08.10</dt><dd>クリエイターズマーケットに出展しました。ありがとうございました。</dd></div>
+        <div><dt>2026.07.01</dt><dd>Webサイトを公開しました。</dd></div>
+      </dl>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <h2>お問い合わせ</h2>
+      <p class="lead">
+        お取り扱い・コラボ・イベント出展のご相談はこちらから。
+      </p>
+      <div class="contact">
+        <a href="mailto:info@example.com" class="btn">メールで問い合わせる</a>
+        <a href="https://www.instagram.com/" class="btn btn-outline" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>&copy; 2026 KERO KERO APPAREL</small>
+  </footer>
+</body>
+</html>
